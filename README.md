@@ -49,7 +49,7 @@ The program includes three different maze sizes:
 
 smallMaze
 
-mediumMaze
+Maze
 
 bigMaze
 
