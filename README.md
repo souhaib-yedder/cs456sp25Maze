@@ -1,66 +1,45 @@
-# cs456sp25Maze
-"This project is for implementing mazes using AI algorithms."
+# Maze Solver using AI Algorithms (BFS, DFS, Greedy, A*, UCS)
 
-Maze Solver using AI Algorithms (BFS, DFS, Greedy, A*, UCS)
-Project Overview
-This project focuses on solving mazes using a variety of AI search algorithms including:
-
-BFS (Breadth-First Search)
-
-DFS (Depth-First Search)
-
-Greedy Search
-
-A* (A-star)
-
-UCS (Uniform Cost Search)
+## Project Overview
+This project focuses on solving mazes using a variety of **AI search algorithms**, including:
+- **BFS (Breadth-First Search)**
+- **DFS (Depth-First Search)**
+- **Greedy Search**
+- **A* (A-star)**
+- **UCS (Uniform Cost Search)**
 
 The goal is to apply these algorithms to solve mazes of different sizes (smallMaze, mediumMaze, and bigMaze), and compare their performance and efficiency in finding the optimal path from the start to the goal.
 
-""""
-Students :: 
+## Students
+- **Souhaib Yedder**
+- **Hyder Gritli**
 
-Souhaib Yedder
+## Project Objectives
+- **Implement AI Algorithms**: Apply several search algorithms to find the best path in a maze.
+- **Different Maze Sizes**: Test the algorithms on mazes of different sizes: small, medium, and large.
+- **Performance Comparison**: Compare the performance, speed, and optimality of each algorithm in solving different mazes.
+- **Pathfinding Visualization**: Test and visualize how each algorithm finds the path from the start to the goal.
 
-hyder gritli
-"""
-Project Objectives
-Implement AI Algorithms: We applied several search algorithms to find the best path in a maze.
+## Algorithms Used
+1. **BFS (Breadth-First Search)**: Explores the maze level by level to guarantee the shortest path.
+2. **DFS (Depth-First Search)**: Explores the maze by going deep into one path before backtracking.
+3. **Greedy Search**: Chooses paths that appear to lead most directly toward the goal based on a heuristic.
+4. **A* (A-star)**: Uses both actual cost and heuristic to efficiently find the optimal path.
+5. **UCS (Uniform Cost Search)**: Finds the least-cost path, considering edge weights.
 
-Different Maze Sizes: We tested the algorithms on mazes of different sizes: small, medium, and large.
-
-Performance Comparison: We compared the performance, speed, and optimality of each algorithm in solving different mazes.
-
-Pathfinding Visualization: Each algorithm is tested and visualized to show how it finds the path from the start to the goal.
-
-Algorithms Used
-BFS (Breadth-First Search): Explores the maze level by level to guarantee the shortest path.
-
-DFS (Depth-First Search): Explores the maze by going deep into one path before backtracking.
-
-Greedy Search: Chooses paths that appear to lead most directly toward the goal based on a heuristic.
-
-A* (A-star): Uses both actual cost and heuristic to efficiently find the optimal path.
-
-UCS (Uniform Cost Search): Finds the least-cost path, considering edge weights.
-
-Maze Types
+## Maze Types
 The project includes three different maze sizes:
+- **smallMaze**: A small maze with fewer obstacles and a simpler layout.
+- **mediumMaze**: A medium-sized maze with a moderate level of complexity.
+- **bigMaze**: A large maze with more obstacles and greater complexity, providing a challenge for the search algorithms.
 
-smallMaze: A small maze with fewer obstacles and a simpler layout.
+## Steps to Run the Program
 
-mediumMaze: A medium-sized maze with a moderate level of complexity.
-
-bigMaze: A large maze with more obstacles and greater complexity, providing a challenge for the search algorithms.
-
-Steps to Run the Program
-1. Install Dependencies
-First, you need to install the necessary Python libraries using pip:
+### 1. Install Dependencies
+First, install the necessary Python libraries using `pip`:
 
 
-"pip install matplotlib numpy"
-
-
+pip install matplotlib numpy
 matplotlib: A library for displaying the maze and the path found by the selected algorithm.
 
 numpy: A library for handling arrays and matrices, used to represent the maze as a grid.
@@ -70,7 +49,7 @@ The program includes three different maze sizes:
 
 smallMaze
 
-Maze
+mediumMaze
 
 bigMaze
 
@@ -85,7 +64,7 @@ DFS (Depth-First Search)
 
 Greedy Search
 
-A* (A-star)
+A (A-star)*
 
 UCS (Uniform Cost Search)
 
