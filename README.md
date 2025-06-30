@@ -17,11 +17,13 @@ UCS (Uniform Cost Search)
 
 The goal is to apply these algorithms to solve mazes of different sizes (smallMaze, mediumMaze, and bigMaze), and compare their performance and efficiency in finding the optimal path from the start to the goal.
 
-Students
+""""
+Students :: 
+
 Souhaib Yedder
 
 hyder gritli
-
+"""
 Project Objectives
 Implement AI Algorithms: We applied several search algorithms to find the best path in a maze.
 
